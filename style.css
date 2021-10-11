@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #5AB788;
+   text-align: center;
+   font-family: 'Pacifico';
+   font-size: 24px;
+   letter-spacing: 0.12em;
+}
+.section1{
+    background-image: url(img/1616428210_7-p-interesnii-fon-9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Pacifico';
+    font-size: 62px;
+    letter-spacing: 0.12em;
+    padding-top: 20%;
+    margin: 5%;
+    width: 497px;
+    height: 276px;
+color: #000000;
+text-shadow: 0px 4px 27px #000000;
+}
+.photo1{
+    height: 90%;
+    padding-top: 10%;
+    margin-left: 15%;
+
+}
+img{
+    transition:1s ;
+}
+img:hover{
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+h2{
+    
+    font-size: 48px;
+    letter-spacing: 0.12em;
+}
+.section2{
+    text-align: center;
+}
+.txt2{
+    margin:5% 5%;
+}
+.slider__item {
+border: 3px solid #fff;
+margin: 5%;
+ display: inline-block;
+}
+
+
+.ph1, .ph2, .ph3, .ph4, .ph5, .ph6 {
+    
+    padding: 3%;
+    width: 255px;
+    height: 290px;
+    transition: 1s;
+   
+}
+.ph1:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */}
+.ph2:hover {
+        transform: scale(1.1); /* Увеличиваем масштаб */}
+
+.ph3:hover {
+            transform: scale(1.1); /* Увеличиваем масштаб */}
+ .ph4:hover {
+                transform: scale(1.1); /* Увеличиваем масштаб */}
+.ph4{
+    width: 320px;
+    height: 290px;
+}
+.ph1{
+    width: 245px;
+    height: 290px;
+    padding: 3%;
+    transition: 1s;
+}
+.ph3{
+    width: 320px;
+    height: 290px;
+
+}
+
+h3{
+    padding-top: 2%;
+}
+.textslider{
+    background: rgba(138, 221, 142, 0.5);
+    margin: 2%;
+}
+.txt3{
+    font-family: 'Marck Script';
+    margin: 5% 8%;
+    font-size: 26px;
+    font-weight: bold;
+}
+.futphoto{
+    display: inline-block;
+    margin-bottom: 2%;
+}
+.mashina{
+    width: 345px;
+    height: 290px;
+}
+.inst{
+    width: 345px;
+    height: 290px;
+}
